@@ -1,0 +1,9 @@
+Debug/
+Release/
+build/
+.settings/
+.metadata/
+.DS_Store
+*.log
+*.tmp
+*.bak
