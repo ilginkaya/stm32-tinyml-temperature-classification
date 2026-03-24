@@ -58,12 +58,20 @@ Aynı işlem gömülü sistem tarafında da uygulanmaktadır:
 
 Bu adım, modelin doğru çalışması için kritik öneme sahiptir.
 
-💡 Sistem Davranışı
+# 💡 Sistem Davranışı
 
 Model çıktısı doğrudan LED’lere bağlanmıştır:
 Sıcaklık Durumu           LED
 Normal                 🟢 Yeşil LED (LD1)
 Anormal                🔴 Kırmızı LED (LD3)
+
+# 🧠 Model Dosyası
+
+Eğitilen model TensorFlow Lite formatında projeye dahil edilmiştir:
+
+- `model/temp_model.tflite`
+
+Bu model STM32 üzerinde X-CUBE-AI kullanılarak çalıştırılmıştır.
 
 
 # 🧪 Test Sonuçları
